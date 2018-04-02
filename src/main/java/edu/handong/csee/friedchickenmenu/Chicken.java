@@ -4,10 +4,10 @@ public class Chicken {
 	String mName = new String();
 	int mPrice;
 	int mRatings;
-	public Chicken() {
-		mName = "\0";
-		mPrice = 0;
-		mRatings = 0;
+	public Chicken(String Name,int Price,int Ratings) {
+		this.mName = Name;
+		this.mPrice = Price;
+		this.mRatings = Ratings;
 	}
 	public String getmName() {
 		return mName;
